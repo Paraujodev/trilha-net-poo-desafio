@@ -3,7 +3,7 @@ namespace DesafioPOO.Models
     
     public class Iphone : Smartphone
     {
-        string imei;
+        
         public Iphone(string numero, string modelo, string imei, int memoria) : base(numero)
         {
              Console.WriteLine ($"Esse é meu numero: {numero}, modelo: {modelo}, Nº imei:{imei} com memória de {memoria}GB");
